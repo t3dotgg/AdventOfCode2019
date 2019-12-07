@@ -47,7 +47,7 @@ while (values[index] !== 99) {
             index = index + 4;
             break;
         case "3":
-            values[z] = input[0];
+            values[values[index + 1]] = input[0];
             index = index + 2;
             console.log(values[z], "assign");
             break;
